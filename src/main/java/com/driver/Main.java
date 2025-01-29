@@ -5,7 +5,7 @@ public class Main {
         Product p = new Product();
         int res = p.product(10, 20);
         int res1 = p.product(5, 10);
-        double res2 = p.product(10.5, 19.5);
+        double res2 = p.product(9.5, 10.5);
 
         System.out.println(res + " " + res1 + " " + res2);
     }
